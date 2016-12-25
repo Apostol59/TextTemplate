@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.25928.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TextTemplate.Core", "TextTemplate.Core\TextTemplate.Core.csproj", "{0DA0A1EC-C79D-438C-8389-06DA95C95E42}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TextTemplate.Core.Tests", "TextTemplate.Core.Tests\TextTemplate.Core.Tests.csproj", "{047F6F9D-50EB-4667-B83C-F5CC26519BC2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TextTemplate.Core.PythonExtensions", "TextTemplate.Core.PythonExtensions\TextTemplate.Core.PythonExtensions.csproj", "{68CA820B-C636-4001-BAA8-4C0A2D9936D0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TextTemplate.Core.PythonExtensions.Tests", "TextTemplate.Core.PythonExtensions.Tests\TextTemplate.Core.PythonExtensions.Tests.csproj", "{E39DE8B3-3099-4E4B-BCD8-95D9629A0816}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TextTemplate.Infrastructure", "TextTemplate.Infrastructure\TextTemplate.Infrastructure.csproj", "{F99F9CAB-2F9A-408B-BDA3-B7F5076F660D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0DA0A1EC-C79D-438C-8389-06DA95C95E42}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0DA0A1EC-C79D-438C-8389-06DA95C95E42}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0DA0A1EC-C79D-438C-8389-06DA95C95E42}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0DA0A1EC-C79D-438C-8389-06DA95C95E42}.Release|Any CPU.Build.0 = Release|Any CPU
+		{047F6F9D-50EB-4667-B83C-F5CC26519BC2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{047F6F9D-50EB-4667-B83C-F5CC26519BC2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{047F6F9D-50EB-4667-B83C-F5CC26519BC2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{047F6F9D-50EB-4667-B83C-F5CC26519BC2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{68CA820B-C636-4001-BAA8-4C0A2D9936D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{68CA820B-C636-4001-BAA8-4C0A2D9936D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{68CA820B-C636-4001-BAA8-4C0A2D9936D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{68CA820B-C636-4001-BAA8-4C0A2D9936D0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E39DE8B3-3099-4E4B-BCD8-95D9629A0816}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E39DE8B3-3099-4E4B-BCD8-95D9629A0816}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E39DE8B3-3099-4E4B-BCD8-95D9629A0816}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E39DE8B3-3099-4E4B-BCD8-95D9629A0816}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F99F9CAB-2F9A-408B-BDA3-B7F5076F660D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F99F9CAB-2F9A-408B-BDA3-B7F5076F660D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F99F9CAB-2F9A-408B-BDA3-B7F5076F660D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F99F9CAB-2F9A-408B-BDA3-B7F5076F660D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
